@@ -53,7 +53,7 @@ router.route("/update").post((req, res) => {
       });
     });
 });
-
+// test commit
 // delete by id
 router.route("/delete").delete((req, res) => {
   Post.findByIdAndDelete(req.body._id)
